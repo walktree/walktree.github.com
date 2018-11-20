@@ -77,13 +77,14 @@ body {
       font-size: 45px;
       line-height: 53px;
       color: #333;
-      font-family: Verdana; }
+      font-family: Merriweather, "PT Serif", Georgia, "Times New Roman", serif; }
       #nav > .header > .title:hover {
         opacity: .7; }
   #nav > .ctnWrap {
-    display: flex;
+    float: right;
     flex-wrap: wrap;
-    justify-content: space-between; }
+    justify-content: space-between;
+    padding-top: 20px; }
     #nav > .ctnWrap > .menu {
       text-align: right; }
     @media screen and (max-width: 600px) {

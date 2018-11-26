@@ -5,18 +5,18 @@
   
   <title>理解卷积神经网络 | With my littles</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="一篇很好的关于卷积网络原理的文章。在网络上，有很多关于网络结构的介绍，但理论方面的文章不多。究其原因，还是因为设计神经网络是一门非常复杂的学问，大部分人都是偏向技术应用。在吴恩达的 deeplearning ai 课程中，对卷积网络的原理，由浅入深，作了很形象的介绍。本文结合更加具体的实例，对卷积网络的运行，特别是特征提取的细节，给出了进一步的讲解，值得好好领会。点击链接">
+  <meta name="description" content="一篇很好的关于卷积网络原理的文章。在网络上，有很多关于网络结构的介绍，但理论方面的文章不多。究其原因，还是因为设计神经网络是一门非常复杂的学问，大部分人都是偏向技术应用。在吴恩达的 deeplearning ai 课程中，对卷积网络的原理，由浅入深，作了很形象的介绍。本文结合更加具体的实例，对卷积网络的运行，特别是特征提取的细节，给出了进一步的讲解，值得好好领会。 阅读原文">
 <meta name="keywords" content="CNN">
 <meta property="og:type" content="article">
 <meta property="og:title" content="理解卷积神经网络">
 <meta property="og:url" content="https://walktree.github.io/2018/11/26/理解卷积神经网络/index.html">
 <meta property="og:site_name" content="With my littles">
-<meta property="og:description" content="一篇很好的关于卷积网络原理的文章。在网络上，有很多关于网络结构的介绍，但理论方面的文章不多。究其原因，还是因为设计神经网络是一门非常复杂的学问，大部分人都是偏向技术应用。在吴恩达的 deeplearning ai 课程中，对卷积网络的原理，由浅入深，作了很形象的介绍。本文结合更加具体的实例，对卷积网络的运行，特别是特征提取的细节，给出了进一步的讲解，值得好好领会。点击链接">
+<meta property="og:description" content="一篇很好的关于卷积网络原理的文章。在网络上，有很多关于网络结构的介绍，但理论方面的文章不多。究其原因，还是因为设计神经网络是一门非常复杂的学问，大部分人都是偏向技术应用。在吴恩达的 deeplearning ai 课程中，对卷积网络的原理，由浅入深，作了很形象的介绍。本文结合更加具体的实例，对卷积网络的运行，特别是特征提取的细节，给出了进一步的讲解，值得好好领会。 阅读原文">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2018-11-26T06:32:41.779Z">
+<meta property="og:updated_time" content="2018-11-26T06:33:33.347Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="理解卷积神经网络">
-<meta name="twitter:description" content="一篇很好的关于卷积网络原理的文章。在网络上，有很多关于网络结构的介绍，但理论方面的文章不多。究其原因，还是因为设计神经网络是一门非常复杂的学问，大部分人都是偏向技术应用。在吴恩达的 deeplearning ai 课程中，对卷积网络的原理，由浅入深，作了很形象的介绍。本文结合更加具体的实例，对卷积网络的运行，特别是特征提取的细节，给出了进一步的讲解，值得好好领会。点击链接">
+<meta name="twitter:description" content="一篇很好的关于卷积网络原理的文章。在网络上，有很多关于网络结构的介绍，但理论方面的文章不多。究其原因，还是因为设计神经网络是一门非常复杂的学问，大部分人都是偏向技术应用。在吴恩达的 deeplearning ai 课程中，对卷积网络的原理，由浅入深，作了很形象的介绍。本文结合更加具体的实例，对卷积网络的运行，特别是特征提取的细节，给出了进一步的讲解，值得好好领会。 阅读原文">
   
   <link rel="stylesheet" href="/css/index.css">
 </head>
@@ -64,7 +64,8 @@
   <h2 class="title">理解卷积神经网络</h2>
   <p class="sub">11月 26, 2018</p>
   <article class="content">
-    <p>一篇很好的关于卷积网络原理的文章。在网络上，有很多关于网络结构的介绍，但理论方面的文章不多。究其原因，还是因为设计神经网络是一门非常复杂的学问，大部分人都是偏向技术应用。在吴恩达的 deeplearning ai 课程中，对卷积网络的原理，由浅入深，作了很形象的介绍。本文结合更加具体的实例，对卷积网络的运行，特别是特征提取的细节，给出了进一步的讲解，值得好好领会。<br><br><br>点击<a href="https://zhuanlan.zhihu.com/p/50800849" target="_blank" rel="noopener">链接</a></p>
+    <p>一篇很好的关于卷积网络原理的文章。在网络上，有很多关于网络结构的介绍，但理论方面的文章不多。究其原因，还是因为设计神经网络是一门非常复杂的学问，大部分人都是偏向技术应用。在吴恩达的 deeplearning ai 课程中，对卷积网络的原理，由浅入深，作了很形象的介绍。本文结合更加具体的实例，对卷积网络的运行，特别是特征提取的细节，给出了进一步的讲解，值得好好领会。</p>
+<p><a href="https://zhuanlan.zhihu.com/p/50800849" target="_blank" rel="noopener">阅读原文</a></p>
 
   </article>
   <footer class="f-cf">

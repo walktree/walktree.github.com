@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head><meta name="generator" content="Hexo 3.8.0">
+  <meta charset="utf-8">
+  
+  <title>libtorch yolov3 | With my littles</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="Pytorch 1.0 预览版附带了一个好东西—libtorch，可以理解为 C++ 版本的 torch。和 pytorch 相比，依赖少，容易安装，非常适合产品化环境。 GitHub 上已经有很多版本的 YOLO v3 了，包括 darknet 的原版。不过，要在产品环境下面上面，还是没有一个满意的版本。 首先，产品环境下首选 C/C++，Pytorch 被排除了；其次，tensorflow 或">
+<meta name="keywords" content="walktree">
+<meta property="og:type" content="article">
+<meta property="og:title" content="libtorch yolov3">
+<meta property="og:url" content="https://walktree.github.io/2018/12/04/libtorch-yolov3/index.html">
+<meta property="og:site_name" content="With my littles">
+<meta property="og:description" content="Pytorch 1.0 预览版附带了一个好东西—libtorch，可以理解为 C++ 版本的 torch。和 pytorch 相比，依赖少，容易安装，非常适合产品化环境。 GitHub 上已经有很多版本的 YOLO v3 了，包括 darknet 的原版。不过，要在产品环境下面上面，还是没有一个满意的版本。 首先，产品环境下首选 C/C++，Pytorch 被排除了；其次，tensorflow 或">
+<meta property="og:locale" content="zh-CN">
+<meta property="og:updated_time" content="2018-12-04T10:23:12.740Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="libtorch yolov3">
+<meta name="twitter:description" content="Pytorch 1.0 预览版附带了一个好东西—libtorch，可以理解为 C++ 版本的 torch。和 pytorch 相比，依赖少，容易安装，非常适合产品化环境。 GitHub 上已经有很多版本的 YOLO v3 了，包括 darknet 的原版。不过，要在产品环境下面上面，还是没有一个满意的版本。 首先，产品环境下首选 C/C++，Pytorch 被排除了；其次，tensorflow 或">
+  
+  <link rel="stylesheet" href="/css/index.css">
+</head>
+</html>
+<body style="
+
+
+  background-color: #eff0f6
+
+">
+  <div id="container">
+    <nav id="nav">  
+  <div class="ctnWrap">
+  <!--  <div class="icons">
+      
+        
+          
+        
+          
+            <a href="https://github.com/walktree" target="_blank" class="nav-icn iconfont icon-github"></a>
+          
+        
+      
+    </div>-->
+    <div class="menu">
+      
+        
+            <a href="/" class="nav-menu ">HOME</a>
+          
+        
+            <a href="/archives/" class="nav-menu ">ARCHIVE</a>
+          
+        
+            <a href="/about/" class="nav-menu ">ABOUT</a>
+          
+        
+      
+    </div>
+  </div>
+  <header class="header">
+    <a href="/" class="title">With My Littles</a>
+  </header>
+</nav>
+    <div id="main"><section class="article">
+  <h2 class="title">libtorch yolov3</h2>
+  <p class="sub">12月 4, 2018</p>
+  <article class="content">
+    <p>Pytorch 1.0 预览版附带了一个好东西—libtorch，可以理解为 C++ 版本的 torch。和 pytorch 相比，依赖少，容易安装，非常适合产品化环境。</p>
+<p>GitHub 上已经有很多版本的 YOLO v3 了，包括 darknet 的原版。不过，要在产品环境下面上面，还是没有一个满意的版本。</p>
+<p>首先，产品环境下首选 C/C++，Pytorch 被排除了；其次，tensorflow 或 caffe 或许合适，有 C++ 的接口，不过团队（包括我）都接触不多。正好，Pytorch 前些日子发布了 1.0 预览版，多了 C++ 的支持。</p>
+<p>由于是预览版，文档不全，实例代码基本没有，另外，对于 C++，算是初学者。整个过程不可谓不艰辛。代码写完，测试下来，发现检测结果不对，花了大量精力，回溯每一个网络层级的输出结果，对 YOLO 有了更深刻的了解。</p>
+<p>严格说起来，这是我的第一个 Github 项目：<a href="https://github.com/walktree/libtorch-yolov3" target="_blank" rel="noopener">walktree/libtorch-yolov3</a></p>
+
+  </article>
+  <footer class="f-cf">
+    
+    
+      <a href="/2018/11/26/理解卷积神经网络/" class="link f-fr">理解卷积神经网络⟶</a>
+    
+  </footer>
+</section></div>
+    <footer id="footer" class="f-cf">
+  <a href="mailto:walktree@gmail.com">Email</a>
+  
+    
+      
+    
+      
+        · <a href="https://github.com/walktree" target="_blank" class="nav-icn">GitHub</a>
+      
+    
+  
+  <span class="copyright">All rights reserved @ walktree, 2018</span>
+</footer>
+  </div>
+</body>
+</html>
